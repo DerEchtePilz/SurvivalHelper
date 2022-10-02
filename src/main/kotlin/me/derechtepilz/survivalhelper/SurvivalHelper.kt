@@ -1,11 +1,13 @@
 package me.derechtepilz.survivalhelper
 
-import net.fabricmc.api.ModInitializer
+import net.fabricmc.api.ClientModInitializer
 
 @Suppress("UNUSED")
-object SurvivalHelper : ModInitializer {
-    private const val MOD_ID = "survivalhelper"
-    override fun onInitialize() {
-        println("Example mod has been initialized.")
+object SurvivalHelper : ClientModInitializer {
+    const val MOD_ID = "survivalhelper"
+    override fun onInitializeClient() {
+
+
+
     }
 }
